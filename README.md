@@ -1,2 +1,54 @@
-# IMDb-list-creatior
-Web script that creates a IMDb list. Taking the work out of manually adding hundreds of movies.
+IMDb List Creator
+This Python script automates the process of creating an IMDb list, eliminating the need to manually add hundreds of movies or TV shows.
+Prerequisites
+Before running this script, ensure you have the following:
+
+An IMDb account
+A comma-separated list of movie or TV show titles
+Python 3.0 or later
+Selenium
+ChromeDriver
+
+Installation
+
+Python 3.0:
+
+Download and install Python 3.0 or later from python.org
+
+
+Selenium:
+
+Install Selenium using pip:
+Copypip install selenium
+
+
+
+ChromeDriver:
+
+Download the appropriate version of ChromeDriver from Chrome for Testing
+Ensure the ChromeDriver executable is in your system's PATH
+
+
+
+Usage
+
+Navigate to the directory containing the script:
+Copycd path/to/script/directory
+
+Run the script:
+Copypython imdbscript.py
+
+Wait for the script to complete without interacting with the Chrome web page that opens.
+The script will automatically close the browser when finished.
+You can now access and modify your IMDb list on the IMDb website.
+
+Important Notes
+
+Make sure you have a stable internet connection while running the script.
+Do not interact with the Chrome window that opens during script execution.
+If you encounter any issues, ensure all prerequisites are correctly installed and up to date.
+
+Contributing
+Contributions to improve the script are welcome. Please feel free to submit a pull request or open an issue.
+License
+[Specify your license here, e.g., MIT, GPL, etc.]
