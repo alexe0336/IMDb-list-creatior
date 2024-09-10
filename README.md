@@ -1,54 +1,61 @@
-IMDb List Creator
+# IMDb List Creator
+
 This Python script automates the process of creating an IMDb list, eliminating the need to manually add hundreds of movies or TV shows.
-Prerequisites
+
+## Prerequisites
+
 Before running this script, ensure you have the following:
 
-An IMDb account
-A comma-separated list of movie or TV show titles
-Python 3.0 or later
-Selenium
-ChromeDriver
+- An IMDb account
+- A comma-separated list of movie or TV show titles
+- Python 3.0 or later
+- Selenium
+- ChromeDriver
 
-Installation
+## Installation
 
-Python 3.0:
+### Python 3.0
 
-Download and install Python 3.0 or later from python.org
+Download and install Python 3.0 or later from [python.org](https://www.python.org/downloads/).
 
-
-Selenium:
+### Selenium
 
 Install Selenium using pip:
-Copypip install selenium
 
+```bash
+pip install selenium
+```
 
+## ChromeDriver
 
-ChromeDriver:
+- Download the appropriate version of for your version of Chrome. https://googlechromelabs.github.io/chrome-for-testing/#stable
+- Ensure the ChromeDriver executable is in your system's PATH.
 
-Download the appropriate version of ChromeDriver from Chrome for Testing
-Ensure the ChromeDriver executable is in your system's PATH
+## Usage
 
+1. **Navigate to the directory containing the script:**
 
+    ```bash
+    cd path/to/script/directory
+    ```
 
-Usage
+2. **Run the script:**
 
-Navigate to the directory containing the script:
-Copycd path/to/script/directory
+    ```bash
+    python imdbscript.py
+    ```
 
-Run the script:
-Copypython imdbscript.py
+3. **Wait for the script to complete.** Do not interact with the Chrome web page that opens. The script will automatically close the browser when finished.
 
-Wait for the script to complete without interacting with the Chrome web page that opens.
-The script will automatically close the browser when finished.
-You can now access and modify your IMDb list on the IMDb website.
+4. **Access and modify your IMDb list** on the IMDb website.
 
-Important Notes
+## Important Notes
 
-Make sure you have a stable internet connection while running the script.
-Do not interact with the Chrome window that opens during script execution.
-If you encounter any issues, ensure all prerequisites are correctly installed and up to date.
+- Make sure you have a stable internet connection while running the script.
+- Do not interact with the Chrome window that opens during script execution.
+- If you encounter any issues, ensure all prerequisites are correctly installed and up to date.
 
-Contributing
+## Contributing
+
 Contributions to improve the script are welcome. Please feel free to submit a pull request or open an issue.
-License
-[Specify your license here, e.g., MIT, GPL, etc.]
+
