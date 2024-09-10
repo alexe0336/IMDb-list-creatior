@@ -6,6 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.common.exceptions import NoSuchElementException
+import time
 unadded_titles = [] # List made to store titles that weren't added
 
 # Configuration
@@ -42,6 +43,7 @@ def main():
     driver.find_element(By.ID, 'ap_email').send_keys(IMDB_EMAIL)
     driver.find_element(By.ID, 'ap_password').send_keys(IMDB_PASSWORD)
     driver.find_element(By.ID, 'ap_password').send_keys(Keys.RETURN)
+    time.sleep(20)
 
     # Go to your lists
     # Locate the label element using XPath
