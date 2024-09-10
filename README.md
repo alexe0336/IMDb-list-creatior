@@ -45,7 +45,7 @@ pip install selenium
     python imdbscript.py
     ```
 
-3. **Wait for the script to complete.** Do not interact with the Chrome web page that opens. The script will automatically close the browser when finished.
+3. **Wait for the script to complete.** Do not interact with the Chrome web page that opens. Other than entering the Captcha. The script will automatically close the browser when finished.
 
 4. **Access and modify your IMDb list** on the IMDb website.
 
