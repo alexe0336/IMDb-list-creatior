@@ -9,8 +9,8 @@ from selenium.common.exceptions import NoSuchElementException
 unadded_titles = [] # List made to store titles that weren't added
 
 # Configuration
-IMDB_EMAIL = '35acac12fuum@dpptd.com' # Enter your IMDb account email
-IMDB_PASSWORD = 'uash2Ohqu' # Enter your IMDb account password
+IMDB_EMAIL = 'email' # Enter your IMDb account email
+IMDB_PASSWORD = 'password' # Enter your IMDb account password
 List_Name = 'Temporary Name' # Enter the name you want your IMDb list to have
 
 # Enter movies or tv show titles below in a format like below for best results. 
